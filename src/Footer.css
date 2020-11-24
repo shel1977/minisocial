@@ -1,0 +1,8 @@
+.AppFooter {
+  grid-area: f;
+  background-color: #000000;
+  height: 100px;
+
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
