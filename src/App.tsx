@@ -1,14 +1,14 @@
 import React from 'react';
 // import logo from './logo.svg';
-import './App.css';
+import style from './App.module.css';
 import {Header} from "./Header";
 import {Footer} from "./Footer";
 
 function App() {
   return (
-    <div className="App">
+    <div className={style.app}>
       <Header />
-<div className="AppContent">
+<div className={style.appContent}>
 
 </div>
       <Footer />
