@@ -4,4 +4,8 @@
     grid-area: h;
     font-size: calc(10px + 2vmin);
     color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
 }

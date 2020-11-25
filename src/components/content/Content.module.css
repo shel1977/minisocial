@@ -1,0 +1,8 @@
+.appContent {
+  grid-area: b;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,50 @@
+.myPageWrap {
+    width: 70%;
+    background-color: #c3c3c3;
+    flex: 0 1 auto;
+    height: 100%;
+
+}
+.myPage {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.myPageHead {
+    height: 190px;
+    position: relative;
+}
+
+.headImagePicture {
+    width: 100%;
+    object-fit: cover;
+    height: 120px;
+}
+
+.headUserPicture {
+    width: 120px;
+    object-fit: cover;
+    height: 120px;
+    border-radius: 60px;
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    border: 2px white solid;
+}
+
+.headUserInfo {
+    margin: 8px 0 0 180px ;
+}
+
+.headUserName {
+    font-size: 20px;
+    font-weight: bold;
+    color: #515151;
+}
+.headUserLocation {
+    font-size: 12px;
+    font-weight: normal;
+    color: #515151;
+}
+
+

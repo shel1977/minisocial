@@ -1,0 +1,14 @@
+.topMenu {
+    height: 30px;
+    padding-bottom: 5px;
+    flex: 0 1 auto;
+    align-self: flex-end;
+    order: 2;
+}
+
+.topMenu span {
+    color: white;
+    font-size: 18px;
+    margin: 5px;
+    padding: 5px;
+}
